@@ -8,7 +8,7 @@ from fastapi import FastAPI, File, Form, Header, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 from faster_whisper import WhisperModel
 
-load_dotenv()
+# load_dotenv()
 
 app = FastAPI(title="CliniNotes Processing Service")
 
