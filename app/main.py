@@ -1,4 +1,8 @@
 import os
+os.environ["HF_HOME"] = "/tmp/huggingface"
+os.environ["HF_HUB_CACHE"] = "/tmp/huggingface/hub"
+os.environ["XDG_CACHE_HOME"] = "/tmp"
+
 import tempfile
 from pathlib import Path
 from typing import Optional
